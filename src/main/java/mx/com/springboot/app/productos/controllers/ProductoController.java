@@ -45,7 +45,7 @@ public class ProductoController {
 //		}
 
 //Ej 2 hystrix para configuración de timeout
-		Thread.sleep(2000);
+		// Thread.sleep(2000);
 
 		return producto;
 	}
