@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import mx.com.springboot.app.commons.models.entities.Producto;
 import mx.com.springboot.app.productos.models.daos.ProductoDAO;
-import mx.com.springboot.app.productos.models.entities.Producto;
 import mx.com.springboot.app.productos.models.services.IProductoService;
 
 @Service
